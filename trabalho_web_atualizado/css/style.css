@@ -1,0 +1,183 @@
+button:hover{
+    transform: scale(1.05);
+   
+}
+button{
+    margin-left: 10px;
+    border-radius: 18%;
+    cursor: pointer;   
+    transition: transform 0.3s;
+    border: 1px solid #000000;
+    flex: 1;
+}
+input{
+    height: 20px;
+}
+.menu {
+    text-align: center;
+    size: 110px;
+}
+.link{
+    background-color: rgb(255, 255, 255) ;
+    color: rgb(0, 0, 0);
+    margin-left: 10px; 
+    text-decoration: none;
+}
+.promocao{
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    margin-left: 30px;
+    vertical-align: middle;
+    margin-top: 10px;
+    
+}
+.promocao, .preco{
+    color: rgb(126, 86, 0);
+}
+.inicio{
+    /*white-space: nowrap;*/
+    margin-left: 20px;
+
+}
+.inicio, .promocao{
+    display: inline-block;
+    /*vertical-align: top;*/
+    vertical-align: middle;
+}
+button{
+   color: #fdf3f3;  
+}
+.img-pro{
+    transition: transform 0.3s ease;
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.img-pro:hover{
+    transform: scale(3.0);
+}
+.imagens, .inf{
+    float: left;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: -20px;
+    
+}
+#capa{
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    object-position: center;
+    margin: 1px;
+    margin-right:-1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    right: 2px;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel img {
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    object-position: center;
+    margin: 1px;
+    margin-right:-1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    right: 2px;
+}
+#button{
+    background-color: rgb(43, 177, 16); width: 200px; border-radius: 2%; font-size: 20px; margin-left: 75px; margin-top: 2px;
+}
+
+#preco1{
+    text-align: center;
+}
+#inf{
+    background-color: rgb(241, 241, 241)
+}
+#title_placa{
+color:  rgb(255,255,255);
+text-align: center;
+
+}
+#imagem_meio{
+
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+    object-position: center;
+    margin: 1px;
+    margin-right:-1px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    position: absolute;
+    border-radius: 10px;
+    right: 2px;
+}
+
+
+
+h1 {
+    color: #ffffff;
+}
+
+#cart {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+#product-list {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+#nomes{
+  color: rgb(255, 255, 255);
+}
+/* Editar conteudo */
+.conteudo {
+    background: #000000dc;
+    padding: 10px;
+    color: #ffffff;
+    opacity: 80%;
+    position: relative;
+    top: 450px;
+    }
+    #titulo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    }
+    .paragrafo{
+    text-align: center;
+    }
