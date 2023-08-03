@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Marketing Place</title>
+    </head>
+    <body style="background-color: rgb(11, 101, 161);">
+        <header style=" font-size: 20px;">
+            <a href="inicio.html" style="text-decoration: none;">
+                <img src="img/MarketHub.png" alt="logo" style="width: 300px; align-items: center;">
+            </a>
+        </header>
+        <div class="menu" style="font-size: 30px;  background-color:  rgb(245, 243, 239);" >
+            <a class="link" href="inicio.html">Home</a>
+            <a class="link" href="computador.html">Hardware</a>
+        </div>
+
+        <div style="margin-left: 500px; margin-right:500px;">
+    
+        </div>
+        
+        <div class="inicio"> 
+            <section>
+                <div class="promocao">
+                    <a href="placaVideo.html" style="text-decoration: none;">
+                        <img src="img/placavideo.jpg" alt="PlacaDeVideo" style="margin-left: 80px; margin-top: 10px;">
+                        <p style="color: rgb(0, 0, 0); text-align: center; margin-top: -10px; ">
+                            Placa de Vídeo RTX 3060 Asus Dual O12G V2 NVIDIA GeForce,<br>
+                            12GB GDDR6, LHR, DLSS, Ray Tracing - DUAL-RTX3060-O12G-V2 ASUS(70) <br>
+                            Placa de Vídeo Asus NVIDIA GeForce DUAL RTX  ...<br> 
+                        </p>
+                    </a>    
+                    <p id="preco1"class="preco" style="font-size: 23px; font-weight: bold; margin-left: 30px;">R$ 899,99</p>
+                    <p style="color: rgb(68, 47, 0); margin-left: 28px; margin-top: -22px;">A vista ou Pix</p>
+                    
+                    <h2>Forma de Pagamento</h2>
+                    <select id="forma-pagamento" onchange="selecionarFormaPagamento()">
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="cartao">Cartão</option>
+                    <option value="pix">Pix</option>
+                </select>
+                <button id="button"onclick="addToCart('placa-de-video', 899.99)">Adicionar ao Carrinho</button>
+                </div>
+
+                <div class="promocao">
+                    <a href="monitor.html" style="text-decoration: none;">  
+                        <img src="img/MonitorGamer.jpg" alt="MonitorGamer" style="margin-left: 80px; margin-top: 10px; ">
+                        <p style="color: rgb(0, 0, 0); text-align: center;">
+                            Monitor Gamer Primetek 24h2g 23.8<br>
+                            Resolução 1920x1080 <br>
+                            Tempo de Resposta: Off/Normal/Rápido/Ultrarápido <br>
+                            Full Hd Led Hdmi Displayport 165hz<br>
+                        </p>
+                    </a>      
+                        <p id="preco1" class="preco" style="font-size: 23px; font-weight: bold; margin-left: 30px;">R$ 700,99</p>
+                        <p style="color:rgb(68, 47, 0); margin-left: 28px; margin-top: -22px;">A vista ou Pix</p>
+                        
+                        <h2>Forma de Pagamento</h2>
+                                        <select id="forma-pagamento" onchange="selecionarFormaPagamento()">
+                                            <option value="dinheiro">Dinheiro</option>
+                                            <option value="cartao">Cartão</option>
+                                            <option value="pix">Pix</option>
+                                        </select>
+                             <button id="button"onclick="addToCart('monitor gamer', 700.99)">Adicionar ao Carrinho</button>
+                </div>
+
+                <div class="promocao">
+                    <a href="notebook-lenovo.html" style="text-decoration: none;">  
+                        <img src="img/notebook-gamer-lenovo.jpg" alt="MonitorGamer" style="margin-left: 80px; margin-top: 10px; width: 200px;">
+                        <p style="color: rgb(0, 0, 0); text-align: center;">
+                            Notebook Gamer Lenovo Gaming 3i<br>
+                            Intel Core i5-11300H,  GeForce GTX 1650<br>
+                            8GB RAM, SSD 512GB, 15.6 Full HD<br>
+                            Windows 11, Preto<br>
+                        </p>
+                    </a>      
+                        <p class="preco" id="preco1" style="font-size: 23px; font-weight: bold; margin-left: 30px;">R$ 999,99</p>
+                        <p style="color:rgb(68, 47, 0); margin-left: 28px; margin-top: -22px;">A vista ou Pix</p>
+                        
+                        <h2>Forma de Pagamento</h2>
+                                        <select id="forma-pagamento" onchange="selecionarFormaPagamento()">
+                                            <option value="dinheiro">Dinheiro</option>
+                                            <option value="cartao">Cartão</option>
+                                            <option value="pix">Pix</option>
+                                        </select>
+                                <button id="button"onclick="addToCart('notebook-gamer-lenovo', 999.99)">Adicionar ao Carrinho</button>
+                                      
+                </div>
+                <div class="promocao">
+                    <a href="notebook-lenovo.html" style="text-decoration: none;">  
+                        <img src="imgProdutos/telcado_1.jpg" alt="MonitorGamer" style="margin-left: 80px; margin-top: 10px; width: 200px;">
+                        <p style="color: rgb(0, 0, 0); text-align: center;">
+                            Teclado Mecânico<br> Gamer HyperX Alloy<br>
+                             Origins, RGB, Switch<br>
+                              HyperX Red, ABNT2 <br>
+                            
+                        </p>
+                    </a>      
+                      <p id="preco1" class="preco" style="font-size: 23px; font-weight: bold; margin-left: 30px;">R$ 400,99</p>
+                        <p style="color:rgb(68, 47, 0); margin-left: 28px; margin-top: -22px;">A vista ou Pix</p>
+                        
+                                         <h2>Forma de Pagamento</h2>
+                                        <select id="forma-pagamento" onchange="selecionarFormaPagamento()">
+                                            <option value="dinheiro">Dinheiro</option>
+                                            <option value="cartao">Cartão</option>
+                                            <option value="pix">Pix</option>
+                                        </select>
+                                        <button id="button"onclick="addToCart('teclado gamer', 400.99)">Adicionar ao Carrinho</button>
+
+                                        
+                </div>
+                <script src="js/script.js"></script> 
+                
+            </section> 
+            <script src="js/script.js"></script>
+            <script src="js/script1.js"></script>
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title >Carrinho de Compras</title> 
+                <link rel="stylesheet" type="text/css" href="styles.css">
+            </head>
+            <body>
+                <h1 id="nomes">Meu Carrinho de Compras</h1>
+                <div id="cart"></div>
+                <div id="product-list">
+                    <h2 id="nomes">Produtos Disponíveis</h2>
+                </div>
+            
+                <button id="button" onclick="checkout()">Finalizar Compra</button>
+            
+                <script src="script.js"></script>
+            </body>
+            </html>
+            
+</html>
